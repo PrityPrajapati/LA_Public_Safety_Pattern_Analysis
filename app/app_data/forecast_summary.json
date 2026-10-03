@@ -1,0 +1,113 @@
+{
+  "all": {
+    "target": "all",
+    "best_model": "Ridge regression",
+    "best_params": {
+      "alpha": 100.0
+    },
+    "test_metrics": {
+      "MAE": 17.03,
+      "RMSE": 21.78,
+      "WAPE_%": 8.08,
+      "MAPE_%": 8.32,
+      "R2": 0.777
+    },
+    "val_metrics": {
+      "MAE": 16.38,
+      "RMSE": 22.18,
+      "WAPE_%": 7.8,
+      "MAPE_%": 7.96,
+      "R2": 0.776
+    },
+    "best_baseline": "Moving average (last 4 weeks)",
+    "best_baseline_test_MAE": 17.58,
+    "improvement_vs_naive_test_MAE_%": 22.6,
+    "improvement_vs_best_baseline_test_MAE_%": 3.1,
+    "interval80_residual_q10_q90": [
+      -29.13,
+      22.32
+    ],
+    "interval80_test_coverage": 0.777,
+    "mean_weekly_per_area_test": 210.8,
+    "worst_areas_WAPE": {
+      "Mission": 10.5,
+      "Rampart": 10.1,
+      "Olympic": 9.4
+    },
+    "best_areas_WAPE": {
+      "Wilshire": 6.2,
+      "West Valley": 6.3,
+      "Central": 6.4
+    },
+    "top_features": {
+      "lag_4": 2.526,
+      "lag_1": 2.032,
+      "area_level": 1.736,
+      "roll_mean_13": 1.586,
+      "month_start_week": 1.309
+    },
+    "worst_weeks": {
+      "2024-01-29": 26.1,
+      "2023-12-25": 22.1,
+      "2024-01-08": 21.7
+    },
+    "next_week": "2024-03-04",
+    "next_week_city_forecast": 4223.0
+  },
+  "violent": {
+    "target": "violent",
+    "best_model": "Random forest",
+    "best_params": {
+      "max_depth": 6,
+      "min_samples_leaf": 5
+    },
+    "test_metrics": {
+      "MAE": 8.02,
+      "RMSE": 10.15,
+      "WAPE_%": 12.48,
+      "MAPE_%": 14.01,
+      "R2": 0.834
+    },
+    "val_metrics": {
+      "MAE": 7.5,
+      "RMSE": 9.34,
+      "WAPE_%": 12.02,
+      "MAPE_%": 13.24,
+      "R2": 0.845
+    },
+    "best_baseline": "Moving average (last 4 weeks)",
+    "best_baseline_test_MAE": 8.6,
+    "improvement_vs_naive_test_MAE_%": 26.1,
+    "improvement_vs_best_baseline_test_MAE_%": 6.7,
+    "interval80_residual_q10_q90": [
+      -12.49,
+      11.64
+    ],
+    "interval80_test_coverage": 0.78,
+    "mean_weekly_per_area_test": 64.2,
+    "worst_areas_WAPE": {
+      "West LA": 21.0,
+      "Devonshire": 16.7,
+      "Northeast": 16.3
+    },
+    "best_areas_WAPE": {
+      "77th Street": 9.2,
+      "Southeast": 9.3,
+      "Central": 10.0
+    },
+    "top_features": {
+      "roll_mean_13": 10.223,
+      "roll_mean_4": 1.254,
+      "area_level": 0.483,
+      "woy_cos": 0.38,
+      "lag_1": 0.087
+    },
+    "worst_weeks": {
+      "2023-08-28": 10.5,
+      "2023-07-03": 10.3,
+      "2024-02-12": 10.1
+    },
+    "next_week": "2024-03-04",
+    "next_week_city_forecast": 1265.0
+  }
+}

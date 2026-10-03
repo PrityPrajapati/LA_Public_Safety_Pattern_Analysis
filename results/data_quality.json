@@ -1,0 +1,48 @@
+{
+  "rows": 1004894,
+  "columns_in_source": 28,
+  "duplicate_DR_NO": 0,
+  "date_occ_range": [
+    "2020-01-01",
+    "2024-12-30"
+  ],
+  "missing_share": {
+    "Vict Sex": 0.1439,
+    "Vict Descent": 0.1439,
+    "Premis Desc": 0.0006,
+    "Weapon Desc": 0.6744
+  },
+  "zero_coordinates": 2240,
+  "time_exactly_1200_share": 0.035,
+  "time_exactly_0001_share": 0.0173,
+  "occurred_on_1st_of_month_share": 0.0463,
+  "expected_1st_of_month_share": 0.0329,
+  "victim_age_zero_share": 0.2679,
+  "victim_age_negative": 137,
+  "victim_sex_codes": {
+    "M": 403842,
+    "F": 358553,
+    "NaN": 144631,
+    "X": 97753,
+    "H": 114,
+    "-": 1
+  },
+  "report_lag_days_median": 1.0,
+  "report_lag_over_30d_share": 0.0587,
+  "report_lag_over_365d_share": 0.0075,
+  "monthly_mean_mar2022_feb2024": 19483.6,
+  "monthly_mean_apr2024_nov2024": 8782.1,
+  "drop_after_system_change_pct": 54.9,
+  "distinct_crime_descriptions": 140,
+  "distinct_reporting_districts": 1210,
+  "rows_missing_coordinates_after_cleaning": 2240,
+  "rows_in_analysis_window": 912387,
+  "crime_group_counts": {
+    "Violent Crime": 294188,
+    "Vehicle Crime": 265499,
+    "Burglary & Theft": 204626,
+    "Vandalism": 89032,
+    "Fraud & Identity": 80152,
+    "Other / Public Order": 71397
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "analysis_rows": 912387,
+  "analysis_weeks": 217,
+  "mean_incidents_per_week": 4204.5,
+  "mean_incidents_per_day": 600.6,
+  "group_share": {
+    "Violent Crime": 0.3111,
+    "Vehicle Crime": 0.2507,
+    "Burglary & Theft": 0.1976,
+    "Vandalism": 0.0892,
+    "Fraud & Identity": 0.0815,
+    "Other / Public Order": 0.07
+  },
+  "top5_offences": {
+    "VEHICLE - STOLEN": 97711,
+    "BATTERY - SIMPLE ASSAULT": 72111,
+    "THEFT OF IDENTITY": 57655,
+    "BURGLARY FROM VEHICLE": 56141,
+    "BURGLARY": 55845
+  },
+  "busiest_area": "Central",
+  "busiest_area_n": 62124,
+  "quietest_area": "Foothill",
+  "quietest_area_n": 30193,
+  "highest_violent_share_area": "77th Street",
+  "highest_violent_share": 0.4529,
+  "peak_hour": 18,
+  "trough_hour": 5,
+  "peak_to_trough_ratio": 3.43,
+  "evening_16_22_share": 0.3953,
+  "busiest_weekday": "Fri",
+  "quietest_weekday": "Tue",
+  "violent_peak_hour": 20,
+  "vehicle_peak_hour": 18,
+  "yearly_counts": {
+    "2020": {
+      "Violent Crime": 64190,
+      "Vehicle Crime": 48527,
+      "Burglary & Theft": 36975,
+      "Fraud & Identity": 12553,
+      "Vandalism": 20288,
+      "Other / Public Order": 13979
+    },
+    "2021": {
+      "Violent Crime": 67183,
+      "Vehicle Crime": 54255,
+      "Burglary & Theft": 37990,
+      "Fraud & Identity": 14980,
+      "Vandalism": 20623,
+      "Other / Public Order": 14845
+    },
+    "2022": {
+      "Violent Crime": 70881,
+      "Vehicle Crime": 58497,
+      "Burglary & Theft": 45168,
+      "Fraud & Identity": 26421,
+      "Vandalism": 18985,
+      "Other / Public Order": 15307
+    },
+    "2023": {
+      "Violent Crime": 70471,
+      "Vehicle Crime": 57596,
+      "Burglary & Theft": 51287,
+      "Fraud & Identity": 17995,
+      "Vandalism": 18353,
+      "Other / Public Order": 16643
+    }
+  },
+  "yearly_total": {
+    "2020": 196512,
+    "2021": 209876,
+    "2022": 235259,
+    "2023": 232345
+  },
+  "top_premises_share": {
+    "STREET": 0.2529,
+    "SINGLE FAMILY DWELLING": 0.1691,
+    "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)": 0.1227,
+    "PARKING LOT": 0.0689,
+    "OTHER BUSINESS": 0.0476
+  },
+  "street_share": 0.2529,
+  "late_report_share_by_group": {
+    "Violent Crime": 0.0242,
+    "Vehicle Crime": 0.0314,
+    "Burglary & Theft": 0.0656,
+    "Fraud & Identity": 0.2891,
+    "Vandalism": 0.0267,
+    "Other / Public Order": 0.0846
+  },
+  "arrest_rate_by_group": {
+    "Violent Crime": 0.1773,
+    "Vehicle Crime": 0.0271,
+    "Burglary & Theft": 0.0613,
+    "Fraud & Identity": 0.0177,
+    "Vandalism": 0.0853,
+    "Other / Public Order": 0.1543
+  },
+  "overall_arrest_rate": 0.0939,
+  "violent_victim_median_age": 35.0,
+  "firearm_share_violent": 0.1361
+}

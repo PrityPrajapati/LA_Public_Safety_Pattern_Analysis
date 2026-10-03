@@ -1,0 +1,17 @@
+,0
+lag_4,2.526
+lag_1,2.032
+area_level,1.736
+roll_mean_13,1.586
+month_start_week,1.309
+roll_mean_4,1.267
+lag_2,0.316
+trend_4_13,0.125
+lag_3,0.098
+roll_std_4,0.055
+woy_cos,0.05
+city_lag_1,0.04
+holiday_week,0.016
+woy_sin,0.01
+lag_52,-0.028
+prev_month_start_week,-0.03

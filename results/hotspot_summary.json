@@ -1,0 +1,37 @@
+{
+  "concentration": {
+    "occupied_cells": 4566,
+    "cell_km": 0.5,
+    "city_area_km2_occupied": 1141.5,
+    "share_in_top_1pct_cells": 0.1056,
+    "share_in_top_5pct_cells": 0.2847,
+    "share_in_top_10pct_cells": 0.4312,
+    "share_in_top_20pct_cells": 0.6306,
+    "pct_cells_holding_50pct_incidents": 12.9
+  },
+  "kmeans_k": 30,
+  "kmeans_metrics": {
+    "k": 30.0,
+    "inertia": 4346975.604825288,
+    "silhouette": 0.3945,
+    "davies_bouldin": 0.7832,
+    "calinski_harabasz": 34580.6
+  },
+  "kmeans_stability_ari_mean": 0.6981,
+  "kmeans_stability_ari_min": 0.6478,
+  "hotspot_selected": {
+    "method": "DBSCAN",
+    "params": "{\"eps\": 0.15, \"min_samples\": 40}",
+    "n_clusters": 79,
+    "coverage": 0.1305,
+    "area_share": 0.0281,
+    "lift": 4.64,
+    "silhouette": 0.4776,
+    "davies_bouldin": 0.4357,
+    "calinski_harabasz": 22264.3
+  },
+  "hotspot_min_samples_full_data_equiv": 607,
+  "top10_hotspots_share_of_all_incidents": 0.0645,
+  "top10_hotspots_footprint_km2": 6.63,
+  "all_hotspots_footprint_km2": 20.09
+}

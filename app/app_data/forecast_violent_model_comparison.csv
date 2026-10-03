@@ -1,0 +1,7 @@
+model,type,params,val_MAE,val_RMSE,val_WAPE_%,val_MAPE_%,val_R2,test_MAE,test_RMSE,test_WAPE_%,test_MAPE_%,test_R2
+Naive (last week),baseline,-,9.81,12.51,15.73,16.7,0.722,10.85,13.71,16.89,18.6,0.698
+Seasonal naive (same week last year),baseline,-,10.41,13.36,16.69,18.22,0.683,10.81,13.74,16.84,17.98,0.696
+Moving average (last 4 weeks),baseline,-,8.11,10.19,13.0,13.89,0.815,8.6,10.83,13.39,14.97,0.811
+Ridge regression,ML,"{""alpha"": 100.0}",7.51,9.43,12.03,13.04,0.842,7.91,9.97,12.32,13.7,0.84
+Random forest,ML,"{""max_depth"": 6, ""min_samples_leaf"": 5}",7.5,9.34,12.02,13.24,0.845,8.02,10.15,12.48,14.01,0.834
+Gradient boosting (Poisson),ML,"{""learning_rate"": 0.03, ""max_leaf_nodes"": 8, ""l2_regularization"": 1.0}",7.78,9.74,12.47,13.79,0.831,8.13,10.2,12.65,14.09,0.833

@@ -1,0 +1,8 @@
+method,params,n_clusters,coverage,area_share,lift,silhouette,davies_bouldin,calinski_harabasz
+DBSCAN,"{""eps"": 0.15, ""min_samples"": 40}",79,0.1305,0.0281,4.64,0.4776,0.4357,22264.3
+DBSCAN,"{""eps"": 0.2, ""min_samples"": 60}",45,0.1333,0.0302,4.42,0.4239,0.3833,18050.5
+DBSCAN,"{""eps"": 0.25, ""min_samples"": 40}",156,0.4591,0.2043,2.25,0.1032,0.5704,3983.0
+DBSCAN,"{""eps"": 0.3, ""min_samples"": 100}",26,0.179,0.0469,3.81,0.3359,0.4373,10390.0
+HDBSCAN,"{""min_cluster_size"": 150, ""min_samples"": 30}",50,0.6025,0.5372,1.12,0.2648,0.6416,2691.6
+HDBSCAN,"{""min_cluster_size"": 300, ""min_samples"": 30, ""cluster_selection_method"": ""leaf""}",31,0.4605,0.3236,1.42,0.5462,0.5775,32083.0
+HDBSCAN,"{""min_cluster_size"": 150, ""min_samples"": 150, ""cluster_selection_method"": ""leaf""}",37,0.2978,0.2286,1.3,0.655,0.4033,36371.8
